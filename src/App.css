@@ -5,6 +5,9 @@
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
 }
 .display {
     margin-top: 25px;
@@ -20,3 +23,22 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+  .App {
+    display: flex;
+    flex-direction: column;
+    padding-right: 8%;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .button {
+    width: 95px;
+    height: 95px;
+    background-color: #333333;
+    border-radius: 50%;
+    /* display: flex;
+    /* justify-content: center;
+    align-items: center; */
+  } 
