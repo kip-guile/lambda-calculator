@@ -1,15 +1,20 @@
 .container {
     background-color: #c00025;
     width: 100%;
-    max-width: 550px;
+    max-width: 500px;
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-left: 4%;
 }
 .display {
     margin-top: 25px;
+    margin-bottom: 25px;
     height: 100px;
-    width: 450px;
+    width: 400px;
     border-radius: 50px;
     color: white;
     background-color: #322c2d;
@@ -19,4 +24,56 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
+  }
+
+  .App {
+    display: flex;
+    flex-direction: row;
+    margin-left:8px;
+    width: 440px;
+    /* justify-content: space-around;
+    align-content: space-around; */
+    flex-wrap: wrap;
+  }
+
+  .button {
+    width: 80px;
+    margin-bottom: 8px;
+    margin-left: 25px;
+    margin-right: 5px;
+    height: 80px;
+    background-color: #333333;
+    border-radius: 50%;
+  } 
+
+  .numSpesh{
+      width: 75%;
+      justify-content: space-around;
+      align-content: space-around;
+  }
+
+  .ops {
+      width:25%;
+  }
+
+  .roborobo {
+    width: 55%;
+    margin-bottom: 8px;
+    margin-left: 25px;
+    margin-right: 5px;
+    background-color: rgb(1, 44, 93);
+    height: 80px;
+    border-radius: 50px;
+  } 
+
+  .button.operate{
+      background-color: rgb(22, 144, 214);
+  }
+
+  .button.nums{
+    background-color: rgb(1, 44, 93);
+  }
+
+  .button.spsh{
+    background-color: rgb(25, 90, 165);
   }
